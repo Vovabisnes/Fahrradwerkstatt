@@ -7,6 +7,7 @@ public class Auftrag {
     public Auftrag(int eingangsZeitPunkt, int auftragsDauer) {
         this.eingangsZeitPunkt = eingangsZeitPunkt;
         this.auftragsDauer = auftragsDauer;
+        warteZeit = 0;
     }
 
     public int getEingangsZeitPunkt() {
